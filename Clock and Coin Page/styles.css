@@ -1,7 +1,20 @@
+.almendra-sc-regular {
+    font-family: "Almendra SC", serif;
+    font-weight: 400;
+    font-style: normal;
+  }  
+
 #top-bar-logo{
     width: 15%;
 }
 
 .top-bar li{
     list-style: none;
+    font-family: "Almendra SC";
+    font-weight: 200%;
+    color: white;
+}
+
+.top-bar{
+    background-color: black;
 }
