@@ -11,10 +11,28 @@
 .top-bar li{
     list-style: none;
     font-family: "Almendra SC";
-    font-weight: 200%;
+    font-weight: 200;
     color: white;
+    font-size: 1.5rem;
 }
 
 .top-bar{
     background-color: black;
+    display: flex;
+    justify-content: space-between;
+    padding: 0 40px;
+}
+
+.list-container{
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+#play-now-button{
+    height: 50px;
+    width: 125px;
+    border-radius: 16px;
 }
