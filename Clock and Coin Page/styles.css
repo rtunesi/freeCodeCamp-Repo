@@ -4,8 +4,14 @@
     font-style: normal;
   }  
 
+.fira-sans-medium {
+    font-family: "Fira Sans", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+  }
+
 #top-bar-logo{
-    width: 15%;
+    width: 13%;
 }
 
 .top-bar li{
@@ -32,7 +38,14 @@
 }
 
 #play-now-button{
+    margin-top: 24px;
+    font-family: "Fira Sans";
     height: 50px;
     width: 125px;
     border-radius: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background-color: #226C8E;
+    border: 0px;;
 }
