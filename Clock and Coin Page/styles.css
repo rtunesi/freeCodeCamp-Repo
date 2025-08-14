@@ -11,8 +11,13 @@
     font-style: normal;
   }
 
+body{
+    margin: 0;
+    padding: 0;
+}
+
 #top-bar-logo{
-    width: 13%;
+    width: 10%;
 }
 
 .top-bar li{
@@ -28,6 +33,7 @@
     display: flex;
     justify-content: space-between;
     padding: 0 40px;
+    margin: 0px;
 }
 
 .list-container{
@@ -39,10 +45,10 @@
 }
 
 #play-now-button{
-    margin-top: 24px;
+    margin-top: 23px;
     font-family: "Fira Sans";
-    height: 50px;
-    width: 125px;
+    height: 30px;
+    width: 100px;
     border-radius: 16px;
     font-weight: 500;
     font-size: 16px;
