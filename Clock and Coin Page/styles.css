@@ -1,8 +1,9 @@
-.almendra-sc-regular {
-    font-family: "Almendra SC", serif;
+.cinzel {
+    font-family: "Cinzel", serif;
+    font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
-  }  
+  }
 
 .fira-sans-medium {
     font-family: "Fira Sans", sans-serif;
@@ -16,10 +17,10 @@
 
 .top-bar li{
     list-style: none;
-    font-family: "Almendra SC";
-    font-weight: 200;
+    font-family: "Cinzel";
+    font-weight: 800;
     color: white;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
 }
 
 .top-bar{
