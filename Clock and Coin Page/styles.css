@@ -58,6 +58,16 @@ body{
     border: 0px;;
 }
 
+.main-body h2{
+    font-family: "Cinzel";
+    font-weight: 800;
+}
+
+.main-body h3{
+    font-family: "Cinzel";
+}
+
 .main-body{
     margin: 20px;
+    font-family: "Fira Sans";
 }
