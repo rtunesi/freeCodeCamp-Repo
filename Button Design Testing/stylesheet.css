@@ -1,0 +1,19 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    margin-top: 23px;
+    height: 30px;
+    width: 100px;
+    border-radius: 16px;
+    font-weight: 500;
+    font-size: 16px;
+    color: white;
+    background: #C29C3C;
+    background: linear-gradient(40deg,rgba(194, 156, 60, 1) 0%, rgba(237, 221, 83, 1) 100%);
+    border: 0px;;
+}
+}

@@ -53,7 +53,11 @@ body{
     font-weight: 500;
     font-size: 16px;
     color: white;
-    background: #3f7ba1;
-    background: linear-gradient(122deg,rgba(47, 101, 135, 1) 0%, rgba(92, 164, 209, 1) 100%);
+    background: #C29C3C;
+    background: linear-gradient(40deg,rgba(194, 156, 60, 1) 0%, rgba(237, 194, 85, 1) 100%);
     border: 0px;;
+}
+
+.main-body{
+    margin: 20px;
 }
