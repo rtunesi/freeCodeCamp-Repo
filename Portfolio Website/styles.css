@@ -25,3 +25,16 @@ body {
 		background-position: 0% 50%;
 	}
 }
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+li {
+    list-style: none;
+    float: left;
+    text-align: center;
+    padding: 14px;
+}
+
