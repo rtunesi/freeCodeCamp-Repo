@@ -38,3 +38,21 @@ li {
     padding: 14px;
 }
 
+.main-page {
+    text-align: center;
+}
+
+#front-heading {
+    font-size: 48px;
+}
+
+.front-display {
+    height: 240px;
+}
+
+.coding-languages {
+    padding-top: 20px;
+    background-color: black;
+    margin: 0px;
+    height: 140px;
+}
