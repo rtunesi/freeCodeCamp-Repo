@@ -5,6 +5,10 @@ body {
 .todo-list-main {
     background-color: white;
     border-radius: 20px;
+    width: 50%;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 h1 {
