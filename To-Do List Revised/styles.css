@@ -1,0 +1,66 @@
+.schibsted-grotesk {
+    font-family: "Schibsted Grotesk", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+body {
+    font-family: "Schibsted Grotesk";
+    background-color: #DADEE1;
+    font-size: 20px;
+}
+
+.todo-list {
+    background-color: white;
+    border-radius: 20px;
+    max-width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 20px;
+}
+
+.ls-item1{
+    background-color: #B9D8E1;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 120px;
+}
+
+.ls-item2{
+    background-color: #B9D8E1;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 120px;
+}
+
+.ls-item3{
+    background-color: #B9D8E1;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 120px;
+}
+
+.ls-item4{
+    background-color: #B9D8E1;
+    border-radius: 10px;
+    margin-bottom: 12px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 120px;
+}
+
+li {
+    list-style-position: inside;
+}
