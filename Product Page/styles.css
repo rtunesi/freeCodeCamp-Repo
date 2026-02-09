@@ -12,6 +12,7 @@ body {
     margin-right: auto;
     margin-left: auto;
     text-align: center;
+    border-bottom: 6px solid #447F98;
 }
 
 .product-item {
