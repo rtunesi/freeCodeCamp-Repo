@@ -46,3 +46,15 @@ body {
     text-align: center;
     padding-top: 12px;
 }
+
+.side-taskbar {
+    background-color: #11213c;
+    margin-left: 22px;
+    height: 75vh;
+    width: 90px;
+    border-radius: 12px;
+}
+
+.side-taskbar ul {
+    list-style: none;
+}
