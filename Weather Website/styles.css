@@ -48,6 +48,7 @@ body {
 }
 
 .side-taskbar {
+    display:flex;
     background-color: #132341;
     margin-left: 22px;
     height: 78vh;
@@ -57,4 +58,11 @@ body {
 
 .side-taskbar ul {
     list-style: none;
+}
+
+.current-weather {
+    background-color: #132341;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
 }
