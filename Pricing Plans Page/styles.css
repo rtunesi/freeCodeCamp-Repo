@@ -1,0 +1,69 @@
+h1 {
+    text-align: center;
+  }
+  
+  .pricing-container {
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  .pricing-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 0 0 200px;
+    border: 2px solid black;
+    
+  }
+  
+  .basic-plan {
+    order: 0;
+  }
+  
+  .pro-plan {
+    order: 1;
+    flex-grow: 2;
+  }
+  
+  .premium-plan {
+    order: 2;
+  }
+  
+  h2, p {
+    text-align: center;
+  }
+  
+  
+  p {
+    border-bottom: 1px solid black;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  .valid::before {
+    content: "✓ ";
+    color: green;
+  }
+  
+  .invalid::before {
+    content: "✗ ";
+    color: red;
+  }
+  
+  button {
+    font-weight: bold;
+    background-color: midnightblue;
+    color: white;
+    border: 1px solid midnightblue;
+    margin: 5px;
+  }
+  
+  button:hover {
+    cursor: pointer;
+    background-color: blue;
+  }
