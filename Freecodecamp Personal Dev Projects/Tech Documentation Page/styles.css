@@ -36,6 +36,7 @@ code {
 
 .main-section li {
     margin-bottom: 14px;
+    margin-left: 16px;
 }
 
 .main-section li:last-child {
