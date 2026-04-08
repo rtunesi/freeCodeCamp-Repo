@@ -3,14 +3,16 @@
 }
 
 body {
-    font-size: 1.25rem;
+    font-size: 1.15rem;
     font-family: sans-serif;
 }
 
 header {
     font-weight: bold;
     font-size: 2rem;
-    border-bottom: 2px solid #212842;
+    padding-top: 10px;
+    padding-bottom: 26px;
+    border-bottom: 1px solid #212842;
 }
 
 code {
@@ -29,6 +31,7 @@ code {
 
 .main-section {
     width: 65%;
+    margin-left: 215px;
 }
 
 .main-section li {
@@ -36,6 +39,42 @@ code {
 }
 
 #navbar {
-    width: 35%;
-    overflow-y: auto;
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+    border-right: 2px solid #212842;
+    text-align: center;
+    font-size: 0.95rem;
+}
+
+.navbar-list {
+    padding: 0px;
+    margin: 4px;
+    margin-top: 12px;
+}
+
+.navbar-list li {
+    list-style: none;
+    height: 36px;
+    margin-bottom: 2px;
+}
+
+.navbar-list li:hover {
+    background-color: rgb(230, 230, 230);
+    border-radius: 2px;
+}
+
+.navbar-list a {
+    color: black;
+    text-decoration: none;
+}
+
+.navbar-list a:active {
+    color: lightskyblue;
+    text-decoration: underline;
 }
