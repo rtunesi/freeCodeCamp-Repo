@@ -1,0 +1,16 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 1.25rem;
+    font-family: sans-serif;
+}
+
+header {
+    font-weight: bold;
+}
+
+.main-section li {
+    margin-bottom: 50px;
+}
