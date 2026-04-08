@@ -11,6 +11,14 @@ header {
     font-weight: bold;
 }
 
+code {
+    background-color: #212842;
+    color: #DADEE1;
+    font-size: 1rem;
+    border-radius: 6px;
+    padding: 6px;
+}
+
 .main-section li {
     margin-bottom: 50px;
 }
