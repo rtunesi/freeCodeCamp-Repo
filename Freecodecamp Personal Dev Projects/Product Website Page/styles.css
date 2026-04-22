@@ -1,55 +1,116 @@
 *, *::before, *::after {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background-color: #F8F9FA;
+  color: #121212;
+  font-family: arial;
+}
+
+#section1 {
+  position: sticky;
+  border-bottom: 1px solid black;
+  top: 0;
+  background-color: grey;
+  overflow-x: hidden;
+}
+
+.video-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+video {
+  height: 320px;
+  width: 620px;
+  margin-bottom: 46px;
+}
+
+.section3 {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  text-align: center;
+  gap: 12px;
+  place-items: center;
+  margin-bottom: 28px;
+}
+
+.section3 ul {
+  list-style: none;
+}
+
+.section3 h3 {
+  font-size: 1.35rem;
+  padding-top: 16px;
+  padding-bottom: 12px;
+  background-color: black;
+  color: white;
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.section3 h4 {
+  font-size: 2rem;
+  padding-top: 12px;
+  padding-bottom: 16px;
+}
+
+.section3 li {
+  margin-bottom: 6px;
+}
+
+.section3 button {
+  margin-top: 12px;
+  width: 60%;
+  height: 40px;
+  font-size: 1.35rem;
+  background-color: #629BB5;
+  border-style: none;
+  color: #DADEE1;
+}
+
+.section3 button:hover {
+  background-color: #105666;
+}
+
+.container1, .container2, .container3 {
+  border: 1px solid black;
+  width: 60%;
+  height: 300px;
+  border-radius: 12px;
+}
+
+footer {
+  border-top: 1px solid black;
+  text-align: right;
+}
+
+footer a {
+  color: darkgrey;
+}
+
+.no-ds::before {
+  content: "✖ ";
+}
+
+.ds::before {
+  content: "✔ ";
+}
+
+.no-custom::before {
+  content: "✖ ";
+}
+
+.custom::before {
+  content: "✔ ";
+}
+
+@media only screen and (max-width: 420px) {
+  .section3 h3 {
+    font-size: 1.34rem;
   }
-  
-  body {
-    background-color: #F8F9FA;
-    color: #121212;
-    font-family: arial;
-  }
-  
-  nav {
-    position: sticky;
-    border-bottom: 1px solid black;
-  }
-  
-  #section3 {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    text-align: center;
-    gap: 12px;
-    place-items: center;
-    margin-bottom: 28px;
-  }
-  
-  #section3 ul {
-    list-style: none;
-  }
-  
-  #section3 h3 {
-    font-size: 2rem;
-    padding-top: 16px;
-    padding-bottom: 12px;
-    background-color: black;
-    color: white;
-    border-radius: 12px;
-  }
-  
-  #section3 h4 {
-    font-size: 1.5rem;
-    padding-top: 12px;
-    padding-bottom: 16px;
-  }
-  
-  .container1, .container2, .container3 {
-    border: 1px solid black;
-    width: 60%;
-    height: 300px;
-    border-radius: 12px;
-  }
-  
-  footer {
-    border-top: 1px solid black;
-  }
+}
