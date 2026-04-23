@@ -16,6 +16,26 @@ body {
   top: 0;
   background-color: grey;
   overflow-x: hidden;
+  height: 60px;
+}
+
+#nav-bar ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  list-style: none;
+  padding-top: 10px;
+}
+
+#nav-bar ul li a {
+  color: white;
+  display: block;
+  padding: 10px;
+  text-align: right;
+}
+
+#nav-bar a:hover {
+  background-color: black;
 }
 
 .video-section {
