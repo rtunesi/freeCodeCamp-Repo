@@ -48,6 +48,7 @@ video {
   height: 320px;
   width: 620px;
   margin-bottom: 46px;
+  margin-top: 46px;
 }
 
 .subject1, .subject2, .subject3, .subject4 {
@@ -140,18 +141,22 @@ footer a {
 
 .no-ds::before {
   content: "✖ ";
+  color: red;
 }
 
 .ds::before {
   content: "✔ ";
+  color: green;
 }
 
 .no-custom::before {
   content: "✖ ";
+  color: red;
 }
 
 .custom::before {
   content: "✔ ";
+  color: green;
 }
 
 @media only screen and (max-width: 420px) {
