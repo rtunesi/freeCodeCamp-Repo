@@ -73,6 +73,11 @@ video {
   text-transform: uppercase;
 }
 
+.section2 {
+  width: 85%;
+  margin: auto;
+}
+
 .section3 {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
