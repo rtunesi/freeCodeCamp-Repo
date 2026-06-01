@@ -8,13 +8,14 @@
 }
 
 body {
-    background-color: #eeeeee;
+    background-color: #f5f6fa;
+    color: #1f2937;
 }
 
 #section-header {
-    border-bottom: 5px solid #36454F;
+    border-bottom: 4px solid #3B82F6;
     color: white;
-    background-color: #1B1212;
+    background-color: #1e2a3a;
 }
 
 #header {
@@ -44,14 +45,14 @@ body {
 }
 
 #nav-bar a:hover {
-    background-color: #2e2323;
+    background-color: #2d3f55;
     border-radius: 4px;
 }
 
 .product-section, .description-container, .review-container, .buy-container {
     width: 80%;
     margin: auto;
-    border-bottom: 2px solid black;
+    border-bottom: 1px solid #d1d5db;
     min-height: 400px;
     padding: 60px 0;
     font-size: 1.1rem;
@@ -64,11 +65,12 @@ body {
 }
 
 .description1, .description2, .description3 {
-    border: 2px solid black;
+    border: 1px solid #d1d5db;
     flex: 1;
     border-radius: 8px;
     padding: 16px;
     transition: transform .2s;
+    color: #1f2937;
 }
 
 .description1:hover, .description2:hover, .description3:hover {
@@ -80,5 +82,5 @@ body {
 }
 
 .description1, .description2, .description3 {
-    background-color: #e0dfdf;
+    background-color: #ffffff;
 }
