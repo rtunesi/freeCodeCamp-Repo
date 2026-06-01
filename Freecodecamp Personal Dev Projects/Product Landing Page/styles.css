@@ -7,6 +7,10 @@
     font-family: 'Inter', sans-serif;
 }
 
+body {
+    background-color: #eeeeee;
+}
+
 #section-header {
     border-bottom: 5px solid #36454F;
     color: white;
@@ -55,9 +59,26 @@
 
 .description-container, .product-cards {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
+    gap: 30px;
 }
 
 .description1, .description2, .description3 {
     border: 2px solid black;
+    flex: 1;
+    border-radius: 8px;
+    padding: 16px;
+    transition: transform .2s;
+}
+
+.description1:hover, .description2:hover, .description3:hover {
+    transform: scale(1.05);
+}
+
+.description-container h3 {
+    text-align: center;
+}
+
+.description1, .description2, .description3 {
+    background-color: #e0dfdf;
 }
