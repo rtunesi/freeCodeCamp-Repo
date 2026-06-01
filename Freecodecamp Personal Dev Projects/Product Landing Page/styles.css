@@ -21,6 +21,10 @@
     height: 70px;
 }
 
+#header h1 {
+    font-style: italic;
+}
+
 #nav-bar ul {
     list-style: none;
     display: flex;
@@ -44,6 +48,9 @@
     width: 80%;
     margin: auto;
     border-bottom: 2px solid black;
+    min-height: 400px;
+    padding: 60px 0;
+    font-size: 1.1rem;
 }
 
 .description-container, .product-cards {
