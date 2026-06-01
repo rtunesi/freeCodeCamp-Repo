@@ -4,6 +4,35 @@
     margin: 0;
 }
 
-#nav-bar li {
+#section-header {
+    border-bottom: 5px solid #36454F;
+    color: white;
+    background-color: #1B1212;
+}
+
+#header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    height: 70px;
+}
+
+#nav-bar ul {
     list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    gap: 20px;
+}
+
+#nav-bar a {
+    color: white;
+    display: inline-block;
+    padding: 8px 12px;
+    text-decoration: none;
+}
+
+#nav-bar a:hover {
+    background-color: #2e2323;
+    border-radius: 4px;
 }
