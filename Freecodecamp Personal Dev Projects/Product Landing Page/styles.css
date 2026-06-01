@@ -40,9 +40,10 @@
     border-radius: 4px;
 }
 
-.product-section, .description-container {
+.product-section, .description-container, .review-container {
     width: 80%;
     margin: auto;
+    border-bottom: 2px solid black;
 }
 
 .description-container {
