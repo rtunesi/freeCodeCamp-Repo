@@ -58,6 +58,30 @@ body {
     font-size: 1.1rem;
 }
 
+.product-section {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.product-text {
+    flex: 1;
+}
+
+.product-text p {
+    font-size: 1.5rem;
+    font-style: italic;
+    padding-top: 12px;
+}
+
+.product-text h2 {
+    font-size: 3.2rem;
+}
+
+.product-section img {
+    width: 55%;
+}
+
 .description-container, .product-cards {
     display: flex;
     justify-content: space-evenly;
