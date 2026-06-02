@@ -55,23 +55,26 @@
         <section id="section-product-reviews">
             <div class="review-container">
                 <h2 class="reviews-heading">What Gamers Are Saying</h2>
-
-                <div class="review-1">
-                    <p>"The stick drift on my old controller was driving me insane. The Pro X fixed everything — the Hall Effect sticks are buttery smooth and I haven't had a single issue after 200+ hours of use."</p>
-                    <p class="reviewer">— Marcus T., verified buyer</p>
-                    <p class="stars">⭐⭐⭐⭐⭐</p>
-                </div>
-
-                <div class="review-2">
-                    <p>"I was sceptical about the adaptive triggers but they genuinely change how games feel. The battery life is no joke either — I charge it once a week at most."</p>
-                    <p class="reviewer">— Priya K., verified buyer</p>
-                    <p class="stars">⭐⭐⭐⭐⭐</p>
-                </div>
-
-                <div class="review-3">
-                    <p>"Best controller I've owned. The build quality feels premium, the buttons are responsive, and the grip is comfortable even during long sessions. Worth every penny."</p>
-                    <p class="reviewer">— Jordan S., verified buyer</p>
-                    <p class="stars">⭐⭐⭐⭐⭐</p>
+                <div class="carousel">
+                    <button class="carousel-btn" id="prev-btn">&#8592;</button>
+                    <div class="carousel-viewport">
+                        <div class="review-card side" id="card-left">
+                            <p class="stars"></p>
+                            <p class="review-text"></p>
+                            <p class="reviewer"></p>
+                        </div>
+                        <div class="review-card active" id="card-center">
+                            <p class="stars"></p>
+                            <p class="review-text"></p>
+                            <p class="reviewer"></p>
+                        </div>
+                        <div class="review-card side" id="card-right">
+                            <p class="stars"></p>
+                            <p class="review-text"></p>
+                            <p class="reviewer"></p>
+                        </div>
+                    </div>
+                    <button class="carousel-btn" id="next-btn">&#8594;</button>
                 </div>
             </div>
         </section>
@@ -122,5 +125,7 @@
             </div>
         </section>
     </main>
+
+    <script src="script.js"></script>
 </body>
 </html>
