@@ -215,13 +215,29 @@ body {
     border: 1px solid #3B82F6;
     padding: 20px;
     border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+}
+
+.buy-btn {
+    margin-top: auto;
+    padding: 10px 16px;
+    cursor: pointer;
+    background-color: #3B82F6;
+    color: white;
+    border: none;
+    border-radius: 6px;
+}
+
+.buy-btn:hover {
+    background: #2563eb;
 }
 
 .product-card li {
     list-style: none;
 }
 
-.product-card h3 {
+.product-card {
     text-align: center;
 }
 
