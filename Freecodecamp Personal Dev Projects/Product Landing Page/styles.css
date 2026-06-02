@@ -89,7 +89,8 @@ body {
 }
 
 .description1, .description2, .description3 {
-    border: 1px solid #d1d5db;
+    border: 1px solid #3B82F6;
+    background-color: #ffffff;;
     flex: 1;
     border-radius: 8px;
     padding: 16px;
@@ -206,4 +207,24 @@ body {
     font-weight: 600;
     color: #6b7280;
     font-size: 0.85rem;
+}
+
+.product-card {
+    margin-top: 35px;
+    background-color: #ffffff;
+    border: 1px solid #3B82F6;
+    padding: 20px;
+    border-radius: 12px;
+}
+
+.product-card li {
+    list-style: none;
+}
+
+.product-card h3 {
+    text-align: center;
+}
+
+.featured-card {
+    transform: scale(1.1);
 }
