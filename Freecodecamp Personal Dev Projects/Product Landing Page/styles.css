@@ -58,6 +58,10 @@ body {
     font-size: 1.1rem;
 }
 
+.description-container p {
+    margin-top: 16px;
+}
+
 .product-section {
     display: flex;
     align-items: center;
@@ -86,6 +90,10 @@ body {
     display: flex;
     justify-content: space-evenly;
     gap: 30px;
+}
+
+.description-container {
+    min-height: auto;
 }
 
 .product-cards {
