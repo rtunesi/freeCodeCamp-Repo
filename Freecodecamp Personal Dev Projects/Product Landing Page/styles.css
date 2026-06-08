@@ -266,6 +266,46 @@ body {
     letter-spacing: 0.08em;
     text-transform: uppercase;
     padding: 4px 10px;
-    border-radius: 999px;
+    border-radius: 4px;
     margin-bottom: 12px;
+}
+
+.product-card h3 {
+    font-size: 1.15rem;
+    font-weight: 700;
+    color: #1e2a3a;
+    margin-bottom: 6px;
+}
+
+.price {
+    font-size: 2rem;
+    font-weight: 700;
+    color: #3B82F6;
+    margin-bottom: 16px;
+}
+
+.feature-list {
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding: 16px 0;
+    border-top: 1px solid #e5e7eb;
+    border-bottom: 1px solid #e5e7eb;
+    margin-bottom: 20px;
+}
+
+.feature-list li {
+    font-size: 0.9rem;
+    color: #4b5563;
+    padding-left: 22px;
+    position: relative;
+}
+
+.feature-list li::before {
+    content: '✓';
+    position: absolute;
+    left: 0;
+    color: #3B82F6;
+    font-weight: 700;
 }
