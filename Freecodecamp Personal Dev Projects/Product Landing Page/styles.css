@@ -256,3 +256,16 @@ body {
     border-width: 2px;
     box-shadow: 0 8px 28px rgba(59, 130, 246, 0.2);
 }
+
+.badge {
+    display: inline-block;
+    background-color: #3B82F6;
+    color: white;
+    font-size: 0.7rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    padding: 4px 10px;
+    border-radius: 999px;
+    margin-bottom: 12px;
+}
