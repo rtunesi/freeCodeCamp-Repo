@@ -24,3 +24,17 @@
     width: 65%;
     height: 750px;
 }
+
+.side-navbar {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 12px;
+    gap: 12px;
+}
+
+#navbar-home, #navbar-selection1, #navbar-selection2, #navbar-selection3, #navbar-selection4, #navbar-selection5 {
+    background-color: grey;
+    border-radius: 16px;
+    flex: 1;
+}
