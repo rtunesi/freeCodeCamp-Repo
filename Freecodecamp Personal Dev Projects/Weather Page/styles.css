@@ -38,3 +38,7 @@
     border-radius: 16px;
     flex: 1;
 }
+
+#navbar-home:hover, #navbar-selection1:hover, #navbar-selection2:hover, #navbar-selection3:hover, #navbar-selection4:hover, #navbar-selection5:hover {
+    background-color: darkgrey;
+}
