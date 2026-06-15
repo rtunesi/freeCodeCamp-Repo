@@ -4,6 +4,10 @@
     margin: 0;
 }
 
+body {
+    background-color: #111417;
+}
+
 #website-body {
     display: flex;
     padding-top: 20px;
@@ -11,7 +15,7 @@
 
 .left-section, .main-section, .right-section {
     border-radius: 24px;
-    background-color: antiquewhite;
+    background-color: #1c2737;
     margin: auto;
 }
 
@@ -34,11 +38,14 @@
 }
 
 #navbar-home, #navbar-selection1, #navbar-selection2, #navbar-selection3, #navbar-selection4, #navbar-selection5 {
-    background-color: grey;
+    background-color: #2c3c55;
     border-radius: 16px;
     flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 #navbar-home:hover, #navbar-selection1:hover, #navbar-selection2:hover, #navbar-selection3:hover, #navbar-selection4:hover, #navbar-selection5:hover {
-    background-color: darkgrey;
+    background-color: #374a69;
 }
