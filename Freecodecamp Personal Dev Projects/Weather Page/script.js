@@ -29,7 +29,13 @@ async function showWeather() {
     const condition = weatherIcons[weather.weather_code] || { icon: "❓", text: "Unknown" };
 
     const output = document.getElementById("weather");
-    output.textContent = `${condition.icon} ${condition.text} — ${weather.temperature_2m}°C`;
+    output.innerHTML = `
+        <span id="weather-emoji">${condition.icon}</span>
+        <div id="weather-info">
+            <p id="weather-temp">${weather.temperature_2m}°C</p>
+            <p id="weather-forecast">${condition.text}</p>
+        </div>
+    `;
 }
 
 showWeather();
